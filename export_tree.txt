@@ -1,0 +1,204 @@
+{
+  "branches": {
+    "main": {
+      "remoteTrackingBranchID": "o/main",
+      "remote": false,
+      "target": "C3",
+      "id": "main",
+      "type": "branch"
+    },
+    "tronco": {
+      "remoteTrackingBranchID": "o/tronco",
+      "remote": false,
+      "target": "C5",
+      "id": "tronco",
+      "type": "branch"
+    },
+    "o/main": {
+      "remoteTrackingBranchID": null,
+      "remote": false,
+      "target": "C4",
+      "id": "o/main",
+      "type": "branch"
+    },
+    "o/tronco": {
+      "remoteTrackingBranchID": null,
+      "remote": false,
+      "target": "C5",
+      "id": "o/tronco",
+      "type": "branch"
+    }
+  },
+  "commits": {
+    "C0": {
+      "type": "commit",
+      "parents": [],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:50:19 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C0",
+      "rootCommit": true
+    },
+    "C1": {
+      "type": "commit",
+      "parents": [
+        "C0"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:50:19 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C1"
+    },
+    "C2": {
+      "type": "commit",
+      "parents": [
+        "C1"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:50:26 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C2"
+    },
+    "C3": {
+      "type": "commit",
+      "parents": [
+        "C2"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:50:31 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C3"
+    },
+    "C5": {
+      "type": "commit",
+      "parents": [
+        "C2"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:51:42 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C5"
+    },
+    "C4": {
+      "type": "commit",
+      "parents": [
+        "C3"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:51:55 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C4"
+    },
+    "C3'": {
+      "type": "commit",
+      "parents": [
+        "C5"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:55:04 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C3'"
+    },
+    "C4'": {
+      "type": "commit",
+      "parents": [
+        "C3'"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Tue Nov 01 2022 22:55:05 GMT-0300 (Horário Padrão de Brasília)",
+      "commitMessage": "Commitando.. Vai Timão!",
+      "id": "C4'"
+    }
+  },
+  "tags": {},
+  "HEAD": {
+    "id": "HEAD",
+    "target": "C4'",
+    "type": "general ref"
+  },
+  "originTree": {
+    "branches": {
+      "main": {
+        "remoteTrackingBranchID": null,
+        "remote": false,
+        "target": "C4",
+        "id": "main",
+        "type": "branch"
+      },
+      "tronco": {
+        "remoteTrackingBranchID": null,
+        "remote": false,
+        "target": "C5",
+        "id": "tronco",
+        "type": "branch"
+      }
+    },
+    "commits": {
+      "C0": {
+        "type": "commit",
+        "parents": [],
+        "author": "Peter Cottle",
+        "createTime": "Tue Nov 01 2022 22:51:08 GMT-0300 (Horário Padrão de Brasília)",
+        "commitMessage": "Commitando.. Vai Timão!",
+        "id": "C0",
+        "rootCommit": true
+      },
+      "C1": {
+        "type": "commit",
+        "parents": [
+          "C0"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Tue Nov 01 2022 22:51:08 GMT-0300 (Horário Padrão de Brasília)",
+        "commitMessage": "Commitando.. Vai Timão!",
+        "id": "C1"
+      },
+      "C2": {
+        "type": "commit",
+        "parents": [
+          "C1"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Tue Nov 01 2022 22:51:08 GMT-0300 (Horário Padrão de Brasília)",
+        "commitMessage": "Commitando.. Vai Timão!",
+        "id": "C2"
+      },
+      "C3": {
+        "type": "commit",
+        "parents": [
+          "C2"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Tue Nov 01 2022 22:51:08 GMT-0300 (Horário Padrão de Brasília)",
+        "commitMessage": "Commitando.. Vai Timão!",
+        "id": "C3"
+      },
+      "C4": {
+        "type": "commit",
+        "parents": [
+          "C3"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Tue Nov 01 2022 22:51:37 GMT-0300 (Horário Padrão de Brasília)",
+        "commitMessage": "Commitando.. Vai Timão!",
+        "id": "C4"
+      },
+      "C5": {
+        "type": "commit",
+        "parents": [
+          "C2"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Tue Nov 01 2022 22:52:05 GMT-0300 (Horário Padrão de Brasília)",
+        "commitMessage": "Commitando.. Vai Timão!",
+        "id": "C5"
+      }
+    },
+    "tags": {},
+    "HEAD": {
+      "target": "main",
+      "id": "HEAD",
+      "type": "general ref"
+    }
+  }
+}
